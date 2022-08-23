@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --primary-bg:#c4c2c2;
+}
+
+body {
+  background-color: var(--primary-bg);
+  font-family: 'Poppins',
+sans-serif;
+  margin: 0;
+  font-size: 14px;
+}
+
+h1{
+  margin: 2% auto 0 auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  margin: 5% auto;
+  text-align: center;
+  background-color: #a3a3a3;
+  border: 5px solid #646e67;
+  border-radius: 10px;
+  box-shadow: 0 0 40px rgba(100, 110, 103,.8);
+}
+
+figure {
+  max-width: 700px;
+  border: 3px solid #646e67;
+  padding: 15px;
+  background-color: var(--primary-bg);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(100, 110, 103,.8);
+}
+
+#img-caption {
+  font-size: 14px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+  display: block;
+  height: auto;
+}
+
+#soedirman-synopsis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.soedirman-timeline {
+  width: 100%;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.soedirman-timeline > h4 {
+  margin: 0 2% 0 2%;
+}
+
+.soedirman-timeline > p {
+  margin: 0 0 0 2%;
+}
+
+table {
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  transition: .3s;
+}
+a:hover {
+  font-style: italic;
+}
